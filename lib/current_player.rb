@@ -3,6 +3,10 @@ def turn_count(board)
   board.each{|location|
   if location == "X" || location == "O"
     counter += 1
+  end
+  }
+  
+  counter
   
 end
 
